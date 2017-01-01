@@ -14,7 +14,7 @@ hs_err_pid*
 # Ignore all temporary files in the root directory		
 *.[oa]		
 /bin/		
-/out
+/out/**/*
 /.externalToolBuilders/		
 /.settings		
 /.settings/**/*
@@ -27,7 +27,7 @@ hs_err_pid*
 .project		
 /.checkstyle	
 /.ida
-.iml	
+*.iml	
 
 # ignore doc/notes.txt, but not doc/info/arch.txt		
 # doc/*.txt		
