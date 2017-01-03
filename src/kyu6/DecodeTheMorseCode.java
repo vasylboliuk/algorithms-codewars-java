@@ -31,17 +31,7 @@ public class DecodeTheMorseCode {
      */
     public static String decode(String morseCode) {
 
-        String[] morse = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
-                ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-",
-                ".--", "-..-", "-.--", "--..", " " };
-        String[] alphabet = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
-                "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
-                "w", "x", "y", "z", " "};
-
-        Map<String, String> MorseCode = new HashMap<>();
-        for(int i=0; i<morse.length; i++){
-            MorseCode.put(morse[i], alphabet[i]);
-        }
+        Map<String, String> MorseCode = getMorseCodeDict();
 
         String result = "";
         morseCode = morseCode.replaceAll("   ", "@");
@@ -66,18 +56,26 @@ public class DecodeTheMorseCode {
     }
 
     //Solution from CodeWars
-    public static String decode2(String morseCode) {
-        String[] morse = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
-                ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-",
-                ".--", "-..-", "-.--", "--..", " " };
-        String[] alphabet = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
-                "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
-                "w", "x", "y", "z", " "};
+    public static String decode3(String morseCode) {
 
-        Map<String, String> MorseCode = new HashMap<>();
-        for(int i=0; i<morse.length; i++){
-            MorseCode.put(morse[i], alphabet[i]);
+        Map<String, String> MorseCode = getMorseCodeDict();
+
+        String[] words = morseCode.trim().split("   ");
+        StringBuilder sb = new StringBuilder();
+        for (String word: words){
+            String[] scode = word.split(" ");
+            for (String sc: scode){
+                sb.append(MorseCode.get(sc));
+            }
+            sb.append(" ");
         }
+        return sb.toString().trim();
+    }
+
+    //Solution from CodeWars
+    public static String decode2(String morseCode) {
+
+        Map<String, String> MorseCode = getMorseCodeDict();
 
         String result = "";
         for(String word : morseCode.trim().split("   ")) {
@@ -89,4 +87,18 @@ public class DecodeTheMorseCode {
         return result.trim();
     }
 
+    private static Map<String, String> getMorseCodeDict(){
+        String[] morse = { ".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-",
+                ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-",
+                ".--", "-..-", "-.--", "--..", " " };
+        String[] alphabet = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
+                "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v",
+                "w", "x", "y", "z", " "};
+
+        Map<String, String> MorseCode = new HashMap<>();
+        for(int i=0; i<morse.length; i++){
+            MorseCode.put(morse[i], alphabet[i]);
+        }
+        return MorseCode;
+    }
 }
