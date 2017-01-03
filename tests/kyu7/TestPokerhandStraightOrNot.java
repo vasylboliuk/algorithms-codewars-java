@@ -1,9 +1,8 @@
-package testsKyu7;
+package kyu7;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.concurrent.ThreadLocalRandom;
 
-import kyu7.PokerhandStraightOrNot;
 import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;

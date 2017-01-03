@@ -1,6 +1,5 @@
-package testsKyu7;
+package kyu7;
 
-import kyu7.UnflattenAList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

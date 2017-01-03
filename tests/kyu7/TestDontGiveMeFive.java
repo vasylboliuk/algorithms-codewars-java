@@ -1,5 +1,4 @@
-package testsKyu7;
-import kyu7.DontGiveMeFive;
+package kyu7;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

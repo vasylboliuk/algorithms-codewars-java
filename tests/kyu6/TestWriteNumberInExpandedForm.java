@@ -1,5 +1,4 @@
-package testsKyu6;
-import kyu6.WriteNumberInExpandedForm;
+package kyu6;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

@@ -1,5 +1,4 @@
-package testsKyu7;
-import kyu7.CountTheCharacters;
+package kyu7;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

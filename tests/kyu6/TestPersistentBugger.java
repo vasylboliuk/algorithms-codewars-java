@@ -1,6 +1,5 @@
-package testsKyu6;
+package kyu6;
 
-import kyu6.PersistentBugger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

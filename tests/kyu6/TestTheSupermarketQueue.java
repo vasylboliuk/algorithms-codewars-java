@@ -1,6 +1,5 @@
-package testsKyu6;
+package kyu6;
 
-import kyu6.TheSupermarketQueue;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

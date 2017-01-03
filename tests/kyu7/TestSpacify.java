@@ -1,5 +1,4 @@
-package testsKyu7;
-import kyu7.Spacify;
+package kyu7;
 import org.junit.Test;
 import java.util.UUID;
 import static org.junit.Assert.*;

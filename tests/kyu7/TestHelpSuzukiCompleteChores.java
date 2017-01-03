@@ -1,6 +1,5 @@
-package testsKyu7;
+package kyu7;
 
-import kyu7.HelpSuzukiCompleteHisChores;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
