@@ -1,4 +1,4 @@
-package testsKuy6;
+package testsKyu6;
 import static org.junit.Assert.*;
 
 import kyu6.SalesmansTravel;

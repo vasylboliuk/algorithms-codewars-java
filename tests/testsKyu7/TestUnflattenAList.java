@@ -1,10 +1,9 @@
-package testsKuy7;
+package testsKyu7;
 
 import kyu7.UnflattenAList;
 import org.junit.Test;
-import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 /**
  * Created by Dell on 12/31/2016.

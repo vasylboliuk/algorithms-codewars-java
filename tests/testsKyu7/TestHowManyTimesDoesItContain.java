@@ -1,8 +1,8 @@
-package testsKuy7;
+package testsKyu7;
 import kyu7.HowManyTimesDoesItContain;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
 import java.util.Random;
 
 

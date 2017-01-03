@@ -1,4 +1,4 @@
-package testsKuy7;
+package testsKyu7;
 
 import kyu7.FizzBuzzCuckooClock;
 import org.testng.Assert;

@@ -1,8 +1,7 @@
-package testsKuy8;
+package testsKyu8;
 import kyu8.CountOfPositivesSumOfNegatives;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.runners.JUnit4;
 
 
 /**

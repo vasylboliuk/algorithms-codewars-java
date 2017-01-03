@@ -1,4 +1,4 @@
-package testsKuy8;
+package testsKyu8;
 import kyu8.VolumeOfACuboid;
 import org.junit.Test;
 import static org.junit.Assert.*;

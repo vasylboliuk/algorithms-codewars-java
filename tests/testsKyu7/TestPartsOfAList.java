@@ -1,4 +1,4 @@
-package testsKuy7;
+package testsKyu7;
 import static org.junit.Assert.*;
 import java.util.Arrays;
 import kyu7.PartsOfAList;

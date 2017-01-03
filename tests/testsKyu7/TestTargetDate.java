@@ -1,9 +1,8 @@
-package testsKuy7;
+package testsKyu7;
 
 import kyu7.TargetDate;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Test;
 
 /**
  * Created by Dell on 12/31/2016.

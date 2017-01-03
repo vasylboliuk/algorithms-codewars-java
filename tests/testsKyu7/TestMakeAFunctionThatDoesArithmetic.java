@@ -1,8 +1,7 @@
-package testsKuy7;
+package testsKyu7;
 import kyu7.MakeAFunctionThatDoesArithmetic;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 /**
  * Created by vboliuk on 30.12.2016.

@@ -1,8 +1,7 @@
-package testsKuy6;
+package testsKyu6;
 import kyu6.WriteNumberInExpandedForm;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 
 /**

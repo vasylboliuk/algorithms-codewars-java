@@ -1,8 +1,8 @@
-package testsKuy8;
+package testsKyu8;
 import kyu8.SumWithoutHighestAndLowestNumber;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
+
 import java.util.*;
 
 

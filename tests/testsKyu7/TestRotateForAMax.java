@@ -1,4 +1,4 @@
-package testsKuy7;
+package testsKyu7;
 
 import kyu7.RotateForAMax;
 import org.junit.Test;

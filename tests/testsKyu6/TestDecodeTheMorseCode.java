@@ -1,4 +1,4 @@
-package testsKuy6;
+package testsKyu6;
 import kyu6.DecodeTheMorseCode;
 import org.junit.Test;
 import static org.hamcrest.CoreMatchers.*;

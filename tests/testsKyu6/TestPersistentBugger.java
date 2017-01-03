@@ -1,4 +1,4 @@
-package testsKuy6;
+package testsKyu6;
 
 import kyu6.PersistentBugger;
 import org.testng.Assert;

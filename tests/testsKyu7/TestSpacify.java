@@ -1,4 +1,4 @@
-package testsKuy7;
+package testsKyu7;
 import kyu7.Spacify;
 import org.junit.Test;
 import java.util.UUID;
