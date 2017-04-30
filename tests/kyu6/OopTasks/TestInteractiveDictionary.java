@@ -19,7 +19,7 @@ public class TestInteractiveDictionary {
 
         assertEquals(dict.look("Apple"), "A fruit that grows on trees");
         assertEquals(dict.look("Banana"), "Cant find entry for Banana");
-        //assertEquals(dict.look(""), "Cant find entry for ");
+        assertEquals(dict.look(""), "Cant find entry for ");
         assertEquals(dict.look("Hi"), "");
 
     }
