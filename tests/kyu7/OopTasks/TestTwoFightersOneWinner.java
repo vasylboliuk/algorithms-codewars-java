@@ -1,4 +1,4 @@
-package kyu6.OopTasks;
+package kyu7.OopTasks;
 
 import kyu7.OopTasks.TwoFightersOneWinner.Battle;
 import kyu7.OopTasks.TwoFightersOneWinner.Fighter;

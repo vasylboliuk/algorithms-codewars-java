@@ -1,4 +1,4 @@
-package kyu7.OopTasks.LeetspeakEncoder;
+package kyu6.OopTasks.LeetspeakEncoder;
 
 /**
  * Created by Dell on 5/2/2017.

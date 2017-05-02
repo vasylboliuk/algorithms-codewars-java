@@ -1,7 +1,6 @@
 package kyu6.OopTasks;
 
-import kyu7.OopTasks.InteractiveDictionary.Dictionary;
-import kyu7.OopTasks.LeetspeakEncoder.Leetspeak;
+import kyu6.OopTasks.LeetspeakEncoder.Leetspeak;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertTrue;

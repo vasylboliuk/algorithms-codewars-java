@@ -1,4 +1,4 @@
-package kyu6.OopTasks;
+package kyu7.OopTasks;
 
 import kyu6.CalculateStringRotation;
 import kyu7.OopTasks.InteractiveDictionary.Dictionary;

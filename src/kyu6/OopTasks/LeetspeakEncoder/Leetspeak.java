@@ -1,4 +1,4 @@
-package kyu7.OopTasks.LeetspeakEncoder;
+package kyu6.OopTasks.LeetspeakEncoder;
 
 import java.util.HashMap;
 import java.util.Map;
