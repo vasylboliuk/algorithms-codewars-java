@@ -11,7 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <testng.version>6.14.3</testng.version>
-        <log4j.version>2.11.2</log4j.version>
+        <log4j.version>2.13.3</log4j.version>
         <assertj-core.version>3.12.2</assertj-core.version>
         <assertj-guava.version>3.2.1</assertj-guava.version>
     </properties>
